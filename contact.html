@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Wallflow Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="logo">Wallflow</a>
+    <div class="nav-right">
+      <nav><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul></nav>
+      <a href="contact.html" class="btn btn-light">Start a project →</a>
+      <button class="menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap reveal">
+    <p class="kicker">CONTACT</p>
+    <h1>Let's start with <em>where you're stuck.</em></h1>
+    <p class="lede">Fill in a few details about your business and what you need help with — website, social, ads, or all three — and we'll get back to you within a day.</p>
+  </div>
+</section>
+
+<section class="wrap contact-wrap">
+  <div class="contact-info reveal">
+    <h2>Other ways to reach us</h2>
+    <p>Prefer email or DM? Either works just as well — we usually reply within a day.</p>
+    <ul>
+      <li><a href="mailto:sparshy66@gmail.com">sparshy66@gmail.com</a></li>
+      <li><a href="https://instagram.com/exe_sparsh.01" target="_blank" rel="noopener">@exe_sparsh.01 on Instagram</a></li>
+      <li><a href="https://wallflow.in" target="_blank" rel="noopener">wallflow.in</a></li>
+    </ul>
+  </div>
+
+  <div class="contact-form reveal">
+    <form id="contactForm" novalidate>
+      <div class="form-field">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="Full name" required>
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@business.com" required>
+      </div>
+      <div class="form-field">
+        <label for="project">What do you need help with?</label>
+        <select id="project" name="project">
+          <option value="Website">Website</option>
+          <option value="Social media">Social media</option>
+          <option value="Ads">Ads &amp; growth</option>
+          <option value="All three">All three</option>
+          <option value="Not sure yet">Not sure yet</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="message">Tell us about your business</label>
+        <textarea id="message" name="message" placeholder="What do you do, and what's the main problem you're trying to solve?" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-solid">Send message →</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">Wallflow</div>
+        <p>A studio for websites, social media, and ads — built to grow small businesses, one project at a time.</p>
+      </div>
+      <div>
+        <h5>Studio</h5>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html#web">Web design</a></li>
+          <li><a href="services.html#social">Social media</a></li>
+          <li><a href="services.html#ads">Ads &amp; growth</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:sparshy66@gmail.com">sparshy66@gmail.com</a></li>
+          <li><a href="https://wallflow.in" target="_blank" rel="noopener">wallflow.in</a></li>
+          <li><a href="https://instagram.com/exe_sparsh.01" target="_blank" rel="noopener">@exe_sparsh.01</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Wallflow Studio. All rights reserved.</span>
+      <span>Based in Uttar Pradesh, India</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
